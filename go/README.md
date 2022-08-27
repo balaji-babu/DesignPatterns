@@ -22,3 +22,5 @@ Please refer to [golang](https://go.dev/doc/install) official doc.
 
 ## Single Responsible Principle:
 > A class(type: struct) should have one, and only one reason to change.
+* Ignoring the above rules, will lead to [GOD Object](https://medium.com/@carlos.ariel.mamani/the-god-object-or-god-class-anti-pattern-bfb8c15eb513) 
+* Module should be highly cohesive and loosely coupled.
