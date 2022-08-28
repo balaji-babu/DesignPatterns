@@ -24,3 +24,8 @@ Please refer to [golang](https://go.dev/doc/install) official doc.
 > A class(type: struct) should have one, and only one reason to change.
 * Ignoring the above rules, will lead to [GOD Object](https://medium.com/@carlos.ariel.mamani/the-god-object-or-god-class-anti-pattern-bfb8c15eb513) 
 * Module should be highly cohesive and loosely coupled.
+
+## Open Closed Principle:
+> Entities should be open for extension, but closed for modification.
+* Code doesn't have to be changed every time when the requirements change.
+* In golang, code should be able to override a struct, using Stratergy Design Pattern
