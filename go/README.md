@@ -40,3 +40,7 @@ Please refer to [golang](https://go.dev/doc/install) official doc.
 * The goal is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts.
 * The above statement is achievable if we define our interface for a specific task.
 
+## Dependency Inversion Principle:
+> High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+* Its about inverting the classic dependency between high-level and low-level components by abstracting  away the interaction between them.
+* The general concept is to reduce the coupling between the classes/struct.
