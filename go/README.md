@@ -29,3 +29,10 @@ Please refer to [golang](https://go.dev/doc/install) official doc.
 > Entities should be open for extension, but closed for modification.
 * Code doesn't have to be changed every time when the requirements change.
 * In golang, code should be able to override a struct, using Stratergy Design Pattern
+
+## Liskov Substitution Principle:
+> LSP states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
+* eg: API which works correctly in base class, when extended by the derived class, it should work correctly in the derived class.
+* LSP deals with Inheritance, which is primarily not applicable in golang, but we can apply LSP in go, using interface and polymorphism.
+
+
