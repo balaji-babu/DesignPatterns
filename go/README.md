@@ -35,4 +35,8 @@ Please refer to [golang](https://go.dev/doc/install) official doc.
 * eg: API which works correctly in base class, when extended by the derived class, it should work correctly in the derived class.
 * LSP deals with Inheritance, which is primarily not applicable in golang, but we can apply LSP in go, using interface and polymorphism.
 
+## Interface Segregation Principle:
+> Clients should not be forced to depend upon interfaces that they do not use.
+* The goal is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts.
+* The above statement is achievable if we define our interface for a specific task.
 
