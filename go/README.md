@@ -1,46 +1,40 @@
-## DesignPatterns:
-This repo contains code for SOLID design principles and design patterns in go programming language.
-
-## How to run this code?
-Go to the respective directory and run the main.go [go run main (or) go build].
-
-## How to install golang in work environment?
-Please refer to [golang](https://go.dev/doc/install) official doc.
-
 ## Introduction:
-* Design patterns are typically for object oriented based languages.
-* In golang we don't have Inheritance and week encapsulation, so golang is not fully object oriented.
+* Design Pattern is a well described solution for a common software problems. Its a blueprint that can be customized to solve a particular design problem in code.
+* Design Patterns are divided into three categories
+  * Creational 
+  * Structural
+  * Behavioral
 
-## Solid Design Principles:
-* SOLID is an acronym for five sets of principles that was first coined by "Robert C Martin"
-* The Five principles of object oriented designs are:
-  * SIP - Single Responsibility Principle
-  * OCP - Open-Closed Principle
-  * LSP - Liskov Substitution Principle
-  * ISP - Interface Segregation Principle
-  * DIP - Dependency Injection Principle
+## Creational Design Pattern:
+> Deals with object creation mechanisms, trying to create objects in a suitable manner. The basic form of object creation could result in a design problems or added complexity to the design. Creational design patterns solves this problem by controlling the object creation.
+* Types:
+  * Singleton Pattern
+  * Factory Patten 
+  * Abstract Factory Pattern
+  * Builder Pattern
+  * Prototype Pattern
 
-## Single Responsible Principle:
-> A class(type: struct) should have one, and only one reason to change.
-* Ignoring the above rules, will lead to [GOD Object](https://medium.com/@carlos.ariel.mamani/the-god-object-or-god-class-anti-pattern-bfb8c15eb513) 
-* Module should be highly cohesive and loosely coupled.
+## Structural Design Pattern:
+> Deals with designing by identifying a simple way to realize relationships between entities. Using inheritance and composition to create a large object from small objects.
+* Types:
+  * Adapter Pattern
+  * Bridge Pattern
+  * Composite Pattern
+  * Decorator Pattern
+  * Facade Pattern
+  * Flyweight Pattern
+  * Proxy Pattern
 
-## Open Closed Principle:
-> Entities should be open for extension, but closed for modification.
-* Code doesn't have to be changed every time when the requirements change.
-* In golang, code should be able to override a struct, using Stratergy Design Pattern
-
-## Liskov Substitution Principle:
-> LSP states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
-* eg: API which works correctly in base class, when extended by the derived class, it should work correctly in the derived class.
-* LSP deals with Inheritance, which is primarily not applicable in golang, but we can apply LSP in go, using interface and polymorphism.
-
-## Interface Segregation Principle:
-> Clients should not be forced to depend upon interfaces that they do not use.
-* The goal is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts.
-* The above statement is achievable if we define our interface for a specific task.
-
-## Dependency Inversion Principle:
-> High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
-* Its about inverting the classic dependency between high-level and low-level components by abstracting  away the interaction between them.
-* The general concept is to reduce the coupling between the classes/struct.
+## Behavioral Design Pattern:
+> Deals with better interaction between objects and to provide lose coupling and flexibility to extend easily, without breaking the code.
+* Types:
+  * Template Method Pattern
+  * Visitor Pattern
+  * Chain of Responsibility Pattern
+  * Command Pattern
+  * Iterator Pattern
+  * Mediator Pattern
+  * Memento Pattern
+  * Observer Pattern
+  * State Pattern
+  * Strategy Pattern
