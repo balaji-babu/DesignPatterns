@@ -12,6 +12,10 @@
   * Factory Patten 
   * Abstract Factory Pattern
   * Builder Pattern
+    * > Builder pattern is a design pattern that allows for the step-by-step[piece-by-piece] creation of complex objects using the correct sequence of actions. The construction is controlled by a director object that only needs to know the type of object it is to create. 
+    * Some objects are simple and can be created in a single constructor call, other objects require a lot of ceremony to create.
+    * Having a factory function with 10 arguments is not productive, instead opt for piecewise (piece-by-piece) construction
+    * > **Builder Facets:** In some situation we need to create more than one builder class. Segregating the builder into multiple builders, gives us control over the properties of a struct.
   * Prototype Pattern
 
 ## Structural Design Pattern:
