@@ -10,6 +10,8 @@
 * Types:
   * Singleton Pattern
   * Factory Patten 
+    * > Create an object without exposing the creation logic to the client. The purpose of this approach is to abstract the user form the things like dependencies that needed to create the class. The user only need to interface to get this value.
+    * Responsible solely for the wholesale (not piecewise, unlike Builder) creation of objects. 
   * Abstract Factory Pattern
   * Builder Pattern
     * > Builder pattern is a design pattern that allows for the step-by-step[piece-by-piece] creation of complex objects using the correct sequence of actions. The construction is controlled by a director object that only needs to know the type of object it is to create. 
