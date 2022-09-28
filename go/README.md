@@ -19,6 +19,10 @@
     * Having a factory function with 10 arguments is not productive, instead opt for piecewise (piece-by-piece) construction
     * > **Builder Facets:** In some situation we need to create more than one builder class. Segregating the builder into multiple builders, gives us control over the properties of a struct.
   * Prototype Pattern
+    * > Prototype pattern provides a mechanism to copy the original object to a new object and them modify it according to our needs. This ensures the increase performance.
+    * Complicated objects aren't designed from scratch they reiterate existing designs.
+    * An existing design[Partially or Fully Constructed] design is a prototype
+    * Make a copy of the prototype and customize it, requires a deep copy support.
 
 ## Structural Design Pattern:
 > Deals with designing by identifying a simple way to realize relationships between entities. Using inheritance and composition to create a large object from small objects.
