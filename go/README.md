@@ -28,6 +28,10 @@
 > Deals with designing by identifying a simple way to realize relationships between entities. Using inheritance and composition to create a large object from small objects.
 * Types:
   * Adapter Pattern
+    > * Adapter pattern enables collaboration between objects with incompatible interfaces. Adapter pattern allows to adapt behavior between objects.
+    * A construct which adapts an existing interface X to conform to the required interface Y.
+    * Can separate the interface or data conversion code from the primary business logic of the program.
+    * Open-Closed principle. Can introduce new types of adapters to the program without modifying existing code, by working with the adapters through the interface.
   * Bridge Pattern
   * Composite Pattern
   * Decorator Pattern
