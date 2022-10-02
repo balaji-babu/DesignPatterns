@@ -37,6 +37,9 @@
      * Can define the needed code in separate structs and interfaces to break the dependency to code each business logic for similar places.
      * Could reduce the code coupling.
   * Composite Pattern
+    > * It allows us to group objects from the same family in a tree-like structure and lets client treat individual objects and compositions uniformly.
+    * Commonly used to solve the cases when we need to handle tree structures because it,s easy to iterate each one of its child/inner objects.
+    * To define the object we can use a struct type or a interface type.
   * Decorator Pattern
   * Facade Pattern
   * Flyweight Pattern
