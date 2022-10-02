@@ -33,6 +33,9 @@
     * Can separate the interface or data conversion code from the primary business logic of the program.
     * Open-Closed principle. Can introduce new types of adapters to the program without modifying existing code, by working with the adapters through the interface.
   * Bridge Pattern
+    > * Bridge pattern allows to split a large class or a group of closely related classes, into two separate hierarchies(abstraction and implementation) that can be developed independently of one another.
+     * Can define the needed code in separate structs and interfaces to break the dependency to code each business logic for similar places.
+     * Could reduce the code coupling.
   * Composite Pattern
   * Decorator Pattern
   * Facade Pattern
