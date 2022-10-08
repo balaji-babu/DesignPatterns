@@ -48,6 +48,9 @@
     * Need to be able to interact with existing structures.
     * Sol: Embed the decorated object and provide additional functionality.
   * Facade Pattern
+    > * Encapsulates a complex subsystem behind a simple interface. It hides much of the complexity and makes the subsystem easy to use.
+    * If we need to use the complex subsystem directly, we can do that too, there is no necessity to use the facade system all the time.
+    * It decouples a client implementation from the complex subsystem.
   * Flyweight Pattern
   * Proxy Pattern
 
