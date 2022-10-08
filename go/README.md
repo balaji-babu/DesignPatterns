@@ -52,6 +52,10 @@
     * If we need to use the complex subsystem directly, we can do that too, there is no necessity to use the facade system all the time.
     * It decouples a client implementation from the complex subsystem.
   * Flyweight Pattern
+    > * Flyweight is used to manage the state of an object with high variation. The pattern allows us to share common parts of the object state among multiple objects, instead of each object storing it. 
+    * It helps to reduce the overall memory usage and the object initializing overhead. The pattern helps create interclass relationships and lower memory to a manageable level.
+    * Avoid redundancy when storing data.
+
   * Proxy Pattern
 
 ## Behavioral Design Pattern:
