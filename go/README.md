@@ -41,6 +41,12 @@
     * Commonly used to solve the cases when we need to handle tree structures because it,s easy to iterate each one of its child/inner objects.
     * To define the object we can use a struct type or a interface type.
   * Decorator Pattern
+    > * Essentially allow us to wrap existing functionality and append or prepend our own custom functionality on top of them.
+    * Augument an object with additional functionality.
+    * Do not want to rewrite or alter existing code [OCP]
+    * If want to keep new functionality separate [SRP]
+    * Need to be able to interact with existing structures.
+    * Sol: Embed the decorated object and provide additional functionality.
   * Facade Pattern
   * Flyweight Pattern
   * Proxy Pattern
