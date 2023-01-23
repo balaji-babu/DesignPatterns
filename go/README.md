@@ -57,6 +57,24 @@
     * Avoid redundancy when storing data.
 
   * Proxy Pattern
+    > * Proxy provides and object that acts as a substitute for a real service object used by a client. A proxy receives client request, does make changes and then passes the request to a service object.
+    * The proxy object has the same interface as a service, which makes it interchangeable with a real object when passed to a client.
+    * The interface exposed by the object and the proxy object is exactly identical, and thus there is no way the end-user can find out if he is dealing with the real object or proxy object.
+    * Proxy Design patterns should be used when we want to provide an object with extra security, functionality, or simplicity. 
+    * Proxy objects are wrappers around the original/real objects that provide the real objects with the extra functionality.
+    * > **Types Of Proxy Pattern**
+      * **Remote Proxy:**
+        * This represents resources that are located on the internet. Any sort of interaction with these resources involves a great deal of serialization and deserialization. All that logic wrapped into a proxy object which then is exposed to the client.
+      * **Protection Proxy:** 
+        * We need to build an extra layer of security around the object.
+        * Proxy acts like an access control.
+      * **Virtual Proxy:**
+        * Virtual proxy provides some default and instant results if the real object takes some time to process the information.
+        * These proxies initiate the operation on real objects and provide a default result to the application. 
+        * Once the real object is done, these proxies push the actual data to the client where it has provided dummy data earlier.
+      * **Smart Proxy:**
+        * A smart proxy provides additional layer of security by interposing specific actions when the object is accessed.
+        * eg: For an object to change the database, The real object is locked before it is accessed to ensure that no other object can change it.
 
 ## Behavioral Design Pattern:
 > Deals with better interaction between objects and to provide lose coupling and flexibility to extend easily, without breaking the code.
