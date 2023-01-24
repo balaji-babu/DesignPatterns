@@ -82,6 +82,10 @@
   * Template Method Pattern
   * Visitor Pattern
   * Chain of Responsibility Pattern
+    > * Chain of Responsible pattern lets to pass requests along a chain of Handlers. Each handler decide to process the request and enrich it or pass it to the next handler.
+    * It allows us to have a great isolation between each step and avoid having business logic in the middle of some technical logic.
+    * It also gives us the possibility to re-order your chain if what your what your app is supposed to do changes.
+    * The reason is to be able to quickly change your app's behavior without deploying code.
   * Command Pattern
   * Iterator Pattern
   * Mediator Pattern
